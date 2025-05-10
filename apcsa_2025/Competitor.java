@@ -1,5 +1,3 @@
-package apcsa_2025;
-
 public class Competitor {
     /** The competitor’s name and rank */
     private String name;

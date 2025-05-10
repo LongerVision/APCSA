@@ -1,5 +1,3 @@
-package apcsa_2025;
-
 public class DogWalkCompany {
     /***
      * Returns the number of dogs, always greater than 0, that are available* for a

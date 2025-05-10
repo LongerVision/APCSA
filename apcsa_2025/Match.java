@@ -1,5 +1,3 @@
-package apcsa_2025;
-
 public class Match {
     private Competitor first;
     private Competitor second;
