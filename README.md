@@ -6,6 +6,11 @@
 
 Students need to manually download [AP Computer Science A Past Exam Questions] themselves.
 
+## Solutions @ Longer Vision Technology YouTube Channel
+
+[AP Computer Science A Solutions By Longer Vision Technology YouTube Channel]
+
+
 ## Other Material for AP Computer Science
 
 - [AP Computer Science A - A Course Overview]
@@ -21,3 +26,5 @@ Students need to manually download [AP Computer Science A Past Exam Questions] t
 [AP Computer Science A - COURSE AND EXAM DESCRIPTION]: https://apcentral.collegeboard.org/media/pdf/ap-computer-science-a-course-and-exam-description.pdf
 
 [Advanced Placement Computer Science A]: https://apstudents.collegeboard.org/courses/ap-computer-science-a
+
+[AP Computer Science A Solutions By Longer Vision Technology YouTube Channel]: https://www.youtube.com/watch?v=iqYCQzQ5mWY&list=PLjw8kHF8SeFpJNy0M-tUpQ0FlN_nVgvdy
