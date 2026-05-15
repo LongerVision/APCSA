@@ -56,15 +56,20 @@ public class GridPath {
      */
     public Location getNextLoc(int row, int col) {
         /* to be implemented in part (a) */
-        if (row + 1 >= grid.length) {
-            return new Location(row, col + 1);
-        } else if (col + 1 >= grid[0].length) {
-            return new Location(row + 1, col);
-        } else {
+        if ((0 <= row && row < grid.length - 1) &&
+                (0 <= col && col < grid[0].length - 1)) {
             if (grid[row + 1][col] < grid[row][col + 1])
-                return new Location(row + 1, col);
+                return (new Location(row + 1, col));
             else
-                return new Location(row, col + 1);
+                return (new Location(row, col + 1));
+        } else if (row == grid.length - 1 &&
+                (0 <= col && col < grid[0].length - 1)) {
+            return (new Location(row, col + 1));
+        } else if (col == grid[0].length - 1 &&
+                (0 <= row && row < grid.length - 1)) {
+            return (new Location(row + 1, col));
+        } else {
+            return null;
         }
     }
 
@@ -83,6 +88,8 @@ public class GridPath {
         while (row != grid.length - 1 || col != grid[0].length - 1) {
             sum += grid[row][col];
             Location l = getNextLoc(row, col);
+            if (l == null)
+                break;
             row = l.getRow();
             col = l.getCol();
         }
@@ -90,6 +97,7 @@ public class GridPath {
         sum += grid[grid.length - 1][grid[0].length - 1];
 
         return sum;
+
     }
     // There may be instance variables, constructors, and methods that are not
     // shown.
