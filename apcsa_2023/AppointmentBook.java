@@ -92,6 +92,9 @@ public class AppointmentBook {
             default:
                 return false;
         }
+
+        // return false;
+
     }
 
     /**
@@ -117,7 +120,7 @@ public class AppointmentBook {
         int len = 0;
         int firstMinuteInBlock = 0;
 
-        for (int i = 0; i < 60; i++) {
+        for (int i = 0; i <= 59; i++) {
             if (isMinuteFree(period, i)) {
                 len++;
                 if (len >= duration)
@@ -145,7 +148,8 @@ public class AppointmentBook {
             int startMinute = findFreeBlock(i, duration);
             if (startMinute >= 0) {
                 reserveBlock(i, startMinute, duration);
-                System.out.println(i + "-" + startMinute + "-" + duration);
+                int endMinute = startMinute + duration - 1;
+                System.out.println(i + "-" + startMinute + "-" + endMinute);
                 return true;
             }
         }
