@@ -94,7 +94,7 @@ public class MessageBuilder {
         System.out.println(mb.message);
         System.out.println(mb.numWords);
 
-        mb.setMessage("as soom as possible");
+        mb.setMessage("as soon as possible");
         System.out.println(mb.getAbbreviation());
     }
 }
