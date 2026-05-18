@@ -14,9 +14,11 @@ Students need to manually download [AP Computer Science A Past Exam Questions] t
 ## Other Material for AP Computer Science
 
 - [AP Computer Science A - A Course Overview]
-- [Java Quick Reference]
-- [AP Computer Science Java Subset]
 - [AP Computer Science A - COURSE AND EXAM DESCRIPTION]
+
+<!-- - [Java Quick Reference]
+- [AP Computer Science Java Subset] -->
+
 
 [AP Computer Science A Past Exam Questions]: https://apcentral.collegeboard.org/courses/ap-computer-science-a/exam/past-exam-questions
 
